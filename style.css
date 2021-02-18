@@ -1,0 +1,59 @@
+
+body {
+    background-color: slategrey;
+    text-align: center;
+}
+
+fieldset {
+    background-color: white;
+    padding: 25px;
+    text-align: left;
+}
+
+
+.btn, .btn:hover {
+    background-color: lightseagreen;
+    font-weight: bold;
+}
+
+#message {
+    font-size: larger;
+    font-family: "Arial Black";
+}
+
+label.error {
+        color: deeppink;
+    font-size:smaller;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+}
+
+.container-left{
+    text-align: center;
+    justify-content: center;
+    width: 1070px;
+    padding: 20px;
+    margin: 0px;
+    background: lightgray;
+    border-radius: 20px;
+}
+.container-right{
+
+    justify-content: left;
+    width: 500px;
+    padding: 20px;
+    margin: 0px;
+    background: lightgray;
+    font-weight: bold;
+    border-radius: 20px;
+}
+input{
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}

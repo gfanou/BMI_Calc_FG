@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Body Mass Index (BMI) Calculator</h1>
+
+    <img src="bmi1.png" height="100" width="150"/>
+    <div class="container ">
+    <fieldset class="container-left">
+        <h4>Check your BMI :</h4>
+        <form id="bmiCalculator">
+
+            <div class="form-group">
+                <label for="weightMeasure">Weight (88Lb - 353Lb)</label>
+                <input name="weightMeasure" id="weightMeasure" type="number" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="heightMeasure">Height (59in - 79in)</label>
+                <input name="heightMeasure" id="heightMeasure" type="number" class="form-control">
+            </div>
+            <button class="btn btn-primary">Calculate my BMI</button>
+
+        </form>
+<br>
+        <p id="message"></p>
+    </fieldset>
+        <div class="container ">
+            <fieldset class="container-right">
+                <h4>Notice:</h4>
+
+                <p>Result less than 18.3 ==> Under Weight </p>
+                <p>Result between 18.3 and 22.9 ==> Healthy </p>
+                <p>Result between 23 to 27.4 ==> Overweight </p>
+                <p>Result between 27.5 to 31.9 ==> Moderately Obese </p>
+                <p>Result greater than 32 &nbsp;&nbsp;==> Obese  </p>
+
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="code.js"></script>
+
+</html>
